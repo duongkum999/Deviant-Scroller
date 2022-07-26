@@ -9,7 +9,7 @@ namespace DeviantScroller
     [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
     public partial class DeviantScroller : Form
     {
-        private DeviantCaller deviantCaller = new DeviantCaller("CLIENT_ID", "CLIENT_SECRET"); // replace CLIENT_ID and CLIENT_SECRET
+        private DeviantCaller deviantCaller = new DeviantCaller("20457", "bd53cba94898787c0ff0b301cfa517f0"); // replace CLIENT_ID and CLIENT_SECRET
         private int gallerySize;
         private string folderID;
         private string username;
